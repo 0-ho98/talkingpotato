@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main-fashion.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap" rel="stylesheet">
+    <title>talkingpotato</title>
+</head>
+<body>
+    <header>
+        <a href="/">Talking Potato</a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./main-movie.html">영화</a></li>
+            <li><a href="./main-fashion.html">패션</a></li>
+            <li><a href="./main-news.html">뉴스</a></li>
+        </ul>
+    </nav>
+    <form method="GET" action="./ActionCompare.html">
+        <fieldset class="MainSearch">
+            <legend>비교할 검색어를 입력해주세요: 뉴스</legend>
+            <div class="SearchContiner">
+                <fieldset class="SearchBox">
+                    <legend>1.</legend>
+                    <input type="text" placeholder="검색" name="first_value" id="first_value">
+                </fieldset>
+                <div class="vs">
+                    VS
+                </div>
+                <fieldset class="SearchBox">
+                    <legend>2.</legend>
+                    <input type="text" placeholder="검색" name="second_value" id="second_value">
+                </fieldset>
+            </div>
+            <div class="CompareBox">
+                <input type="submit" value="비교하기">
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+        
+    </footer>
+</body>
+</html>

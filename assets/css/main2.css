@@ -1,0 +1,41 @@
+:root {
+  /* font-size */
+  --title-font-size: 70px;
+  --large-font-size: 20px;
+  --regular-font-size: 16px;
+  --small-font-size: 12px;
+
+  /* spaceing */
+  --big-spacing: 16px;
+  --regular-spacing: 12px;
+  --small-spacing: 8px;
+
+  /* color */
+  --main-color: #e3f2fd;
+}
+
+body {
+  background-color: var(--main-color);
+  list-style: none;
+  margin: 0;
+}
+header {
+  text-align: center;
+  margin-top: 180px;
+  width: 100%;
+}
+header a {
+  font-size: var(--title-font-size);
+  font-family: "Noto Sans KR", sans-serif;
+  vertical-align: middle;
+}
+
+form #login_container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 200px;
+}
+form #login_container input {
+  display: block;
+  width: 100%;
+}
