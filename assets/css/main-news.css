@@ -90,7 +90,7 @@ form .MainSearch .SearchContiner .vs {
 }
 form .MainSearch .SearchContiner .SearchBox {
   border: 1.5px solid black;
-  min-width: 30%;
+  border-radius: 5px;
 }
 form .MainSearch .SearchContiner .SearchBox input {
   display: inline-block;
