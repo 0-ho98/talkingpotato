@@ -25,7 +25,7 @@
             <div class="SearchContiner">
                 <fieldset class="SearchBox">
                     <legend>1.</legend>
-                    <input type="text" placeholder="검색" name="first_value" id="first_value">
+                    <input type="text" placeholder="검색" name="first_value" id="first_value" autofocus>
                 </fieldset>
                 <div class="vs">
                     VS
@@ -36,12 +36,20 @@
                 </fieldset>
             </div>
             <div class="CompareBox">
-                <input type="submit" value="비교하기">
+                <input type="submit" value="비교하기" id="compare_btn">
             </div>
         </fieldset>
     </form>
     <footer>
         
     </footer>
+    <!-- <script>
+        const firstValue = document.querySelector('#first_value').value;
+        const secondValue = document.querySelector('#second_value').value;
+        document.getElementById('compare_btn').addEventListener('click', ()=>{
+            
+        });
+       
+    </script> -->
 </body>
 </html>
