@@ -1,0 +1,89 @@
+:root {
+  /* font-size */
+  --title-font-size: 45px;
+  --large-font-size: 20px;
+  --regular-font-size: 16px;
+  --small-font-size: 12px;
+
+  /* spaceing */
+  --big-spacing: 16px;
+  --regular-spacing: 12px;
+  --small-spacing: 8px;
+
+  /* color */
+  --main-color: #fff3e0;
+  --title-color: black;
+  --main-search-color: #ccc0ae;
+}
+/* 초기화 */
+body {
+  background-color: var(--main-color);
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* header */
+header {
+  text-align: center;
+  width: 100%;
+  margin: 30px 0;
+  padding-top: 200px;
+}
+header a {
+  font-size: var(--title-font-size);
+  color: var(--title-color);
+}
+/* nav */
+nav {
+  width: 100%;
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 var(--regular-spacing);
+}
+nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  box-shadow: 1px 1px 10px gray;
+  border-radius: 100%;
+  border: 1px solid gray;
+  background-color: var(--main-search-color);
+}
+nav ul li:hover {
+  background-color: bisque;
+}
+nav ul li a {
+  color: black;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    padding-top: 70px;
+  }
+  header a {
+    font-size: 70px;
+  }
+  nav ul {
+    width: 800px;
+  }
+  nav ul li {
+    width: 200px;
+    height: 200px;
+  }
+}
